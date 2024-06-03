@@ -7,6 +7,7 @@ This project is ETL project to extract from postgresql, transform and load to bi
 - And then Load into BigQuery (make sure already has Table in BigQuery
   
 ## Tools and Technologies
+Containerize: Docker
 Database: PostgreSQL (SQL database)
 Data Warehouse: Google BigQuery
 ETL Tool: Apache Airflow
