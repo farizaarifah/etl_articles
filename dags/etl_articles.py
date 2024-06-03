@@ -81,7 +81,7 @@ def load_to_bigquery():
     job_config = bigquery.LoadJobConfig(
         write_disposition="WRITE_APPEND",
     )
-    table_id= 'fresh-ward-335203.dataset1.articles'
+    table_id= 'project_name.dataset1.articles'
     job = client_bigquery.load_table_from_dataframe(
         df, table_id, job_config=job_config
     )  # Make an API request.
